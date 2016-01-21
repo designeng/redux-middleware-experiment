@@ -3,7 +3,8 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
 import * as ApiActions from '../actions/api'
-import Sender from '../components/sender'
+import ServerApiMonitor from '../components/ServerApiMonitor'
+
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
     console.log(actions);
     return (
       <div>
-        <Sender callApi={actions.callApi} />
+        <ServerApiMonitor actions={actions} />
         <div>app</div>
       </div>
     )
