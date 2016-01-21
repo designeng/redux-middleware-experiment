@@ -20,12 +20,4 @@ class Sender extends Component {
   }
 }
 
-// sender.propTypes = {
-//   completedCount: PropTypes.number.isRequired,
-//   activeCount: PropTypes.number.isRequired,
-//   filter: PropTypes.string.isRequired,
-//   onClearCompleted: PropTypes.func.isRequired,
-//   onShow: PropTypes.func.isRequired
-// }
-
 export default Sender
