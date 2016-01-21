@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react'
 
-class ButtonPanel extends Component {
+export default class ButtonPanel extends Component {
 
   onSendRequest() {
     console.log("on send request");
@@ -23,5 +23,3 @@ class ButtonPanel extends Component {
     )
   }
 }
-
-export default ButtonPanel

@@ -12,6 +12,7 @@ class App extends Component {
     console.log(actions);
     return (
       <div>
+        <div>ServerApiMonitor:</div>
         <ServerApiMonitor actions={actions} />
         <div>app</div>
       </div>
